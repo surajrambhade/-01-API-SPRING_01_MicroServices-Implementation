@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/microservices
     username: postgres
-    password: Suraj@2000
+    password: YourDBPassCode
     driver-class-name:
   config:
     import: optional:configserver:http://localhost:8006    #Config ab server se lega  aur ye link config server ki hai
